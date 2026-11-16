@@ -173,7 +173,7 @@ def build_pdf():
     # PAGE 1: TITLE, OVERVIEW & TASK 1 (LoRA FINE-TUNING)
     # =========================================================================
     story.append(Paragraph("tndrr AI/ML Internship — Technical Assignment Report", title_style))
-    story.append(Paragraph("<b>Author:</b> Riddhi Das &nbsp;|&nbsp; <b>Date:</b> November 2026 &nbsp;|&nbsp; <b>Repository:</b> GitHub / Separate Task Modules", subtitle_style))
+    story.append(Paragraph("<b>Author:</b> Riddhi Das &nbsp;|&nbsp; <b>Email:</b> riddhidas201@gmail.com &nbsp;|&nbsp; <b>GitHub:</b> github.com/RIDDHIDEV-OPS/tndrr-AI-Internship", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1, color=PRIMARY, spaceBefore=0, spaceAfter=6))
 
     # Executive Overview Box

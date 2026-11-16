@@ -1,6 +1,8 @@
 # tndrr AI/ML Internship — Assignment Round Submission
 
 **Candidate:** Riddhi Das  
+**Email:** riddhidas201@gmail.com  
+**GitHub Repository:** [https://github.com/RIDDHIDEV-OPS/tndrr-AI-Internship](https://github.com/RIDDHIDEV-OPS/tndrr-AI-Internship)  
 **Submission Deadline:** Thursday, 19 November 2026 at 11:59 PM IST  
 **Submission Form:** [https://forms.gle/zwiDcjVkG6M4u8jEH7](https://forms.gle/zwiDcjVkG6M4u8jEH7)  
 **Report Document:** [`tndrr_AI_Internship_Report_Riddhi_Das.pdf`](./tndrr_AI_Internship_Report_Riddhi_Das.pdf) (4 pages, publication ready)
