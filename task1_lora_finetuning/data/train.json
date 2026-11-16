@@ -1,0 +1,782 @@
+[
+  {
+    "input": "Reserve a hotel room for 2 adults, 2 nights, check-in tomorrow",
+    "output": "{\"intent\":\"booking\",\"type\":\"hotel\",\"guests\":2,\"nights\":2,\"check_in\":\"tomorrow\"}"
+  },
+  {
+    "input": "New user registration: Liam, 19 years old, liam99@hotmail.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Liam\",\"age\":19,\"email\":\"liam99@hotmail.com\"}"
+  },
+  {
+    "input": "Schedule a dog grooming session on Thursday at 11am",
+    "output": "{\"intent\":\"booking\",\"type\":\"pet grooming\",\"service\":\"dog grooming\",\"date\":\"Thursday\",\"time\":\"11:00\"}"
+  },
+  {
+    "input": "Reserve a table for 2 on Valentine's Day at 7:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":2,\"date\":\"Valentine's Day\",\"time\":\"19:30\"}"
+  },
+  {
+    "input": "Reserve a car for 3 days starting Sunday",
+    "output": "{\"intent\":\"booking\",\"type\":\"car rental\",\"days\":3,\"pickup_date\":\"Sunday\"}"
+  },
+  {
+    "input": "Book a surfing lesson for a beginner on Sunday at 9am",
+    "output": "{\"intent\":\"booking\",\"type\":\"lesson\",\"activity\":\"surfing\",\"level\":\"beginner\",\"date\":\"Sunday\",\"time\":\"09:00\"}"
+  },
+  {
+    "input": "Find noise-cancelling earbuds under $200",
+    "output": "{\"intent\":\"product_search\",\"category\":\"earbuds\",\"feature\":\"noise-cancelling\",\"max_price\":200}"
+  },
+  {
+    "input": "Create user profile: Ethan, 42 years, ethan.b@work.net",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ethan\",\"age\":42,\"email\":\"ethan.b@work.net\"}"
+  },
+  {
+    "input": "Create account for Sophie, age 35, sophie@domain.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Sophie\",\"age\":35,\"email\":\"sophie@domain.com\"}"
+  },
+  {
+    "input": "Look for orange running shorts under $30",
+    "output": "{\"intent\":\"product_search\",\"category\":\"shorts\",\"color\":\"orange\",\"activity\":\"running\",\"max_price\":30}"
+  },
+  {
+    "input": "Make account for Marie Curie, age 44, marie@radium.fr",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Marie Curie\",\"age\":44,\"email\":\"marie@radium.fr\"}"
+  },
+  {
+    "input": "Reserve 2 beach chairs and an umbrella on Saturday",
+    "output": "{\"intent\":\"booking\",\"type\":\"equipment rental\",\"equipment\":[\"beach chairs\",\"umbrella\"],\"quantity\":2,\"date\":\"Saturday\"}"
+  },
+  {
+    "input": "Book a limo for 6 hours on prom night",
+    "output": "{\"intent\":\"booking\",\"type\":\"limo\",\"duration_hours\":6,\"occasion\":\"prom\"}"
+  },
+  {
+    "input": "Find mechanical keyboards with tactile brown switches below $90",
+    "output": "{\"intent\":\"product_search\",\"category\":\"keyboards\",\"type\":\"mechanical\",\"switches\":\"tactile brown\",\"max_price\":90}"
+  },
+  {
+    "input": "Find mechanical keyboard under $120",
+    "output": "{\"intent\":\"product_search\",\"category\":\"keyboard\",\"type\":\"mechanical\",\"max_price\":120}"
+  },
+  {
+    "input": "Look for pink water bottle cheaper than $15",
+    "output": "{\"intent\":\"product_search\",\"category\":\"water bottle\",\"color\":\"pink\",\"max_price\":15}"
+  },
+  {
+    "input": "Create user Nadia Murad, age 30, nadia@humanrights.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Nadia Murad\",\"age\":30,\"email\":\"nadia@humanrights.org\"}"
+  },
+  {
+    "input": "Create account for Ryan, 34, ryan.m@developer.io",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ryan\",\"age\":34,\"email\":\"ryan.m@developer.io\"}"
+  },
+  {
+    "input": "Reserve 3 seats for the theater on Saturday night",
+    "output": "{\"intent\":\"booking\",\"type\":\"theater\",\"seats\":3,\"date\":\"Saturday\"}"
+  },
+  {
+    "input": "Look for a slim laptop bag under $35",
+    "output": "{\"intent\":\"product_search\",\"category\":\"laptop bag\",\"fit\":\"slim\",\"max_price\":35}"
+  },
+  {
+    "input": "Find a compact air purifier under $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"air purifier\",\"size\":\"compact\",\"max_price\":80}"
+  },
+  {
+    "input": "Find a portable charger 20000mAh under $40",
+    "output": "{\"intent\":\"product_search\",\"category\":\"portable charger\",\"capacity_mah\":20000,\"max_price\":40}"
+  },
+  {
+    "input": "Book a table for 3 at noon this Sunday",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":3,\"date\":\"this Sunday\",\"time\":\"12:00\"}"
+  },
+  {
+    "input": "Register user Hudson, 49, hudson.c@investor.fund",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Hudson\",\"age\":49,\"email\":\"hudson.c@investor.fund\"}"
+  },
+  {
+    "input": "Book an appointment with a financial advisor on Monday at 1pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"financial advisor\",\"date\":\"Monday\",\"time\":\"13:00\"}"
+  },
+  {
+    "input": "Make account for Clara Oswald, age 27, clara@timetravel.co.uk",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Clara Oswald\",\"age\":27,\"email\":\"clara@timetravel.co.uk\"}"
+  },
+  {
+    "input": "Schedule a private yoga session for 2 tomorrow morning at 8am",
+    "output": "{\"intent\":\"booking\",\"type\":\"class\",\"activity\":\"yoga\",\"party_size\":2,\"date\":\"tomorrow\",\"time\":\"08:00\"}"
+  },
+  {
+    "input": "Sign up Arthur Dent, age 42, arthur@galaxy.net",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Arthur Dent\",\"age\":42,\"email\":\"arthur@galaxy.net\"}"
+  },
+  {
+    "input": "Book a photographer for my wedding on June 14th",
+    "output": "{\"intent\":\"booking\",\"type\":\"service\",\"specialty\":\"photographer\",\"occasion\":\"wedding\",\"date\":\"June 14th\"}"
+  },
+  {
+    "input": "I need blue sunglasses under $60",
+    "output": "{\"intent\":\"product_search\",\"category\":\"sunglasses\",\"color\":\"blue\",\"max_price\":60}"
+  },
+  {
+    "input": "Reserve a kayak for 2 hours tomorrow afternoon",
+    "output": "{\"intent\":\"booking\",\"type\":\"equipment rental\",\"equipment\":\"kayak\",\"duration_hours\":2,\"date\":\"tomorrow\",\"time_of_day\":\"afternoon\"}"
+  },
+  {
+    "input": "Look for a folding camp chair under $30",
+    "output": "{\"intent\":\"product_search\",\"category\":\"camp chair\",\"feature\":\"folding\",\"max_price\":30}"
+  },
+  {
+    "input": "Schedule a skin consultation at the dermatologist next Tuesday at 3pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"dermatologist\",\"date\":\"next Tuesday\",\"time\":\"15:00\"}"
+  },
+  {
+    "input": "Create user Ivy, age 19, ivy.b@freshman.uni",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ivy\",\"age\":19,\"email\":\"ivy.b@freshman.uni\"}"
+  },
+  {
+    "input": "New account for Aria, age 28, aria.s@musician.band",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Aria\",\"age\":28,\"email\":\"aria.s@musician.band\"}"
+  },
+  {
+    "input": "Book a table for 1 at the bar area tonight at 7pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":1,\"seating\":\"bar\",\"date\":\"tonight\",\"time\":\"19:00\"}"
+  },
+  {
+    "input": "Show me noise cancelling wireless headphones below $200",
+    "output": "{\"intent\":\"product_search\",\"category\":\"headphones\",\"type\":\"noise cancelling wireless\",\"max_price\":200}"
+  },
+  {
+    "input": "Reserve a pottery class for Saturday afternoon at 2pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"class\",\"activity\":\"pottery\",\"date\":\"Saturday\",\"time\":\"14:00\"}"
+  },
+  {
+    "input": "Sign up Jackson, 43, jackson.d@law.firm",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Jackson\",\"age\":43,\"email\":\"jackson.d@law.firm\"}"
+  },
+  {
+    "input": "Schedule an AC maintenance service visit on Monday between 10am and 12pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"home service\",\"service\":\"AC maintenance\",\"date\":\"Monday\",\"time_window\":\"10:00-12:00\"}"
+  },
+  {
+    "input": "Book a room for 1 adult for 7 nights, check-in next Saturday",
+    "output": "{\"intent\":\"booking\",\"type\":\"hotel\",\"guests\":1,\"nights\":7,\"check_in\":\"next Saturday\"}"
+  },
+  {
+    "input": "Schedule a tax consultation next Friday at 3pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"tax consultation\",\"date\":\"next Friday\",\"time\":\"15:00\"}"
+  },
+  {
+    "input": "Book a golf tee time for a foursome on Sunday at 7:30am",
+    "output": "{\"intent\":\"booking\",\"type\":\"tee time\",\"sport\":\"golf\",\"party_size\":4,\"date\":\"Sunday\",\"time\":\"07:30\"}"
+  },
+  {
+    "input": "Add user Elijah, 52, elijah.b@senior.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Elijah\",\"age\":52,\"email\":\"elijah.b@senior.org\"}"
+  },
+  {
+    "input": "Account creation: Carlos Santana, 58, carlos@guitarhero.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Carlos Santana\",\"age\":58,\"email\":\"carlos@guitarhero.org\"}"
+  },
+  {
+    "input": "New user entry: Nina Simone, 65, nina@jazzlegend.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Nina Simone\",\"age\":65,\"email\":\"nina@jazzlegend.com\"}"
+  },
+  {
+    "input": "Make a reservation for 5 guests this Friday at 7pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":5,\"date\":\"this Friday\",\"time\":\"19:00\"}"
+  },
+  {
+    "input": "Reserve a private dining room for 15 colleagues on Dec 5 at 7pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"seating\":\"private room\",\"party_size\":15,\"date\":\"Dec 5\",\"time\":\"19:00\"}"
+  },
+  {
+    "input": "Book a swimming lesson for my child on Saturday at 10am",
+    "output": "{\"intent\":\"booking\",\"type\":\"lesson\",\"activity\":\"swimming\",\"date\":\"Saturday\",\"time\":\"10:00\"}"
+  },
+  {
+    "input": "Book a tennis court for 1 hour on Wednesday at 6pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"court rental\",\"activity\":\"tennis\",\"duration_hours\":1,\"date\":\"Wednesday\",\"time\":\"18:00\"}"
+  },
+  {
+    "input": "Schedule veterinary appointment for my dog next Wednesday at 4pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"veterinarian\",\"date\":\"next Wednesday\",\"time\":\"16:00\"}"
+  },
+  {
+    "input": "Register Stella, 30, stella.j@photographer.art",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Stella\",\"age\":30,\"email\":\"stella.j@photographer.art\"}"
+  },
+  {
+    "input": "New user: Paisley, age 24, paisley.b@baker.yum",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Paisley\",\"age\":24,\"email\":\"paisley.b@baker.yum\"}"
+  },
+  {
+    "input": "Search for a vegan leather handbag under $70",
+    "output": "{\"intent\":\"product_search\",\"category\":\"handbag\",\"material\":\"vegan leather\",\"max_price\":70}"
+  },
+  {
+    "input": "Look for men's slim fit dress shirt under $45",
+    "output": "{\"intent\":\"product_search\",\"category\":\"dress shirt\",\"gender\":\"men\",\"fit\":\"slim\",\"max_price\":45}"
+  },
+  {
+    "input": "Reserve 4 VIP tickets to the comedy show this Friday at 9pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"tickets\",\"event\":\"comedy show\",\"tier\":\"VIP\",\"quantity\":4,\"date\":\"this Friday\",\"time\":\"21:00\"}"
+  },
+  {
+    "input": "Add member Samuel Jackson, 62, samuel@badmother.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Samuel Jackson\",\"age\":62,\"email\":\"samuel@badmother.org\"}"
+  },
+  {
+    "input": "Look for a monochrome laser printer under $200",
+    "output": "{\"intent\":\"product_search\",\"category\":\"printer\",\"type\":\"laser\",\"color_mode\":\"monochrome\",\"max_price\":200}"
+  },
+  {
+    "input": "Register Layla, age 22, layla.a@student.net",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Layla\",\"age\":22,\"email\":\"layla.a@student.net\"}"
+  },
+  {
+    "input": "Register John Smith, 25 years old, john.smith@gmail.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"John Smith\",\"age\":25,\"email\":\"john.smith@gmail.com\"}"
+  },
+  {
+    "input": "Search for organic cotton pillowcase under $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"pillowcase\",\"material\":\"organic cotton\",\"max_price\":20}"
+  },
+  {
+    "input": "Sign up user Emma, age 28, emma.jones@yahoo.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Emma\",\"age\":28,\"email\":\"emma.jones@yahoo.com\"}"
+  },
+  {
+    "input": "Schedule a massage appointment tomorrow at 2pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"massage\",\"date\":\"tomorrow\",\"time\":\"14:00\"}"
+  },
+  {
+    "input": "Reserve a co-working desk for 3 days next week",
+    "output": "{\"intent\":\"booking\",\"type\":\"co-working\",\"days\":3,\"week\":\"next week\"}"
+  },
+  {
+    "input": "Book a pediatrician visit for my daughter tomorrow at 2:15pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"pediatrician\",\"date\":\"tomorrow\",\"time\":\"14:15\"}"
+  },
+  {
+    "input": "Reserve a wine tasting session for 6 on Saturday afternoon at 3pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"experience\",\"activity\":\"wine tasting\",\"party_size\":6,\"date\":\"Saturday\",\"time\":\"15:00\"}"
+  },
+  {
+    "input": "Sign up Finn, 46, finn.o@surfer.wave",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Finn\",\"age\":46,\"email\":\"finn.o@surfer.wave\"}"
+  },
+  {
+    "input": "Look for wool socks pack under $15",
+    "output": "{\"intent\":\"product_search\",\"category\":\"socks\",\"material\":\"wool\",\"max_price\":15}"
+  },
+  {
+    "input": "Find a wooden desk under $300",
+    "output": "{\"intent\":\"product_search\",\"category\":\"desk\",\"material\":\"wood\",\"max_price\":300}"
+  },
+  {
+    "input": "Add user Violet, age 27, violet.s@florist.flowers",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Violet\",\"age\":27,\"email\":\"violet.s@florist.flowers\"}"
+  },
+  {
+    "input": "Schedule a cleaning service for Monday morning",
+    "output": "{\"intent\":\"booking\",\"type\":\"service\",\"specialty\":\"cleaning\",\"date\":\"Monday\",\"time_of_day\":\"morning\"}"
+  },
+  {
+    "input": "Search stainless steel coffee mug under $25",
+    "output": "{\"intent\":\"product_search\",\"category\":\"coffee mug\",\"material\":\"stainless steel\",\"max_price\":25}"
+  },
+  {
+    "input": "Find air fryers 6 quart capacity under $100",
+    "output": "{\"intent\":\"product_search\",\"category\":\"air fryers\",\"capacity\":\"6 quart\",\"max_price\":100}"
+  },
+  {
+    "input": "Register Ella, 34, ella.p@design.art",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ella\",\"age\":34,\"email\":\"ella.p@design.art\"}"
+  },
+  {
+    "input": "Schedule a doctor's appointment for next Thursday at 11am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"doctor\",\"date\":\"next Thursday\",\"time\":\"11:00\"}"
+  },
+  {
+    "input": "Look for men's grey t-shirt under $25",
+    "output": "{\"intent\":\"product_search\",\"category\":\"t-shirt\",\"gender\":\"men\",\"color\":\"grey\",\"max_price\":25}"
+  },
+  {
+    "input": "Book a table for 4 people this Saturday at 8pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":4,\"date\":\"this Saturday\",\"time\":\"20:00\"}"
+  },
+  {
+    "input": "Sign up Amelia, she is 32, amelia.b@creative.studio",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Amelia\",\"age\":32,\"email\":\"amelia.b@creative.studio\"}"
+  },
+  {
+    "input": "Create an account for Marcus Aurelius, 45, marcus@philosophy.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Marcus Aurelius\",\"age\":45,\"email\":\"marcus@philosophy.org\"}"
+  },
+  {
+    "input": "Sign up user Camden, 51, camden.r@pilot.fly",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Camden\",\"age\":51,\"email\":\"camden.r@pilot.fly\"}"
+  },
+  {
+    "input": "Find a beginner's guitar under $150",
+    "output": "{\"intent\":\"product_search\",\"category\":\"guitar\",\"level\":\"beginner\",\"max_price\":150}"
+  },
+  {
+    "input": "Find a titanium wedding band under $300",
+    "output": "{\"intent\":\"product_search\",\"category\":\"wedding band\",\"material\":\"titanium\",\"max_price\":300}"
+  },
+  {
+    "input": "Find adjustable dumbbell set under $200",
+    "output": "{\"intent\":\"product_search\",\"category\":\"dumbbell\",\"type\":\"adjustable\",\"max_price\":200}"
+  },
+  {
+    "input": "Find wireless charging pad for iPhone under $25",
+    "output": "{\"intent\":\"product_search\",\"category\":\"chargers\",\"type\":\"wireless pad\",\"device\":\"iPhone\",\"max_price\":25}"
+  },
+  {
+    "input": "Look for a black leather jacket under $200",
+    "output": "{\"intent\":\"product_search\",\"category\":\"jacket\",\"color\":\"black\",\"material\":\"leather\",\"max_price\":200}"
+  },
+  {
+    "input": "Book a team dinner for 12 on Thursday at 7:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":12,\"occasion\":\"team dinner\",\"date\":\"Thursday\",\"time\":\"19:30\"}"
+  },
+  {
+    "input": "Sign up Noah, age 24, noah.w@student.edu",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Noah\",\"age\":24,\"email\":\"noah.w@student.edu\"}"
+  },
+  {
+    "input": "New customer: Thomas Wayne, 52 years old, twayne@enterprises.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Thomas Wayne\",\"age\":52,\"email\":\"twayne@enterprises.com\"}"
+  },
+  {
+    "input": "Book a gym session on Tuesday at 6pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"gym session\",\"date\":\"Tuesday\",\"time\":\"18:00\"}"
+  },
+  {
+    "input": "Add user: Carlos, 31, carlos.m@proton.me",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Carlos\",\"age\":31,\"email\":\"carlos.m@proton.me\"}"
+  },
+  {
+    "input": "Please register Aiden, 39 years old, aiden.c@research.ac",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Aiden\",\"age\":39,\"email\":\"aiden.c@research.ac\"}"
+  },
+  {
+    "input": "Reserve a paddleboard for 90 minutes tomorrow at noon",
+    "output": "{\"intent\":\"booking\",\"type\":\"equipment rental\",\"equipment\":\"paddleboard\",\"duration_minutes\":90,\"date\":\"tomorrow\",\"time\":\"12:00\"}"
+  },
+  {
+    "input": "Create a new account: Xavier, age 21, xavier.n@gamer.pro",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Xavier\",\"age\":21,\"email\":\"xavier.n@gamer.pro\"}"
+  },
+  {
+    "input": "Search ceramic coffee mug sets under $30",
+    "output": "{\"intent\":\"product_search\",\"category\":\"mugs\",\"material\":\"ceramic\",\"type\":\"set\",\"max_price\":30}"
+  },
+  {
+    "input": "Find a white ceramic coffee maker under $60",
+    "output": "{\"intent\":\"product_search\",\"category\":\"coffee maker\",\"color\":\"white\",\"material\":\"ceramic\",\"max_price\":60}"
+  },
+  {
+    "input": "Schedule a dentist appointment next Monday at 10am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"dentist\",\"date\":\"next Monday\",\"time\":\"10:00\"}"
+  },
+  {
+    "input": "Book a table for 2 at 7pm tomorrow",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":2,\"time\":\"19:00\",\"date\":\"tomorrow\"}"
+  },
+  {
+    "input": "Create profile: Kenji Sato, 40 years old, kenji.sato@tokyo.jp",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Kenji Sato\",\"age\":40,\"email\":\"kenji.sato@tokyo.jp\"}"
+  },
+  {
+    "input": "Look for brown leather boots under $180",
+    "output": "{\"intent\":\"product_search\",\"category\":\"boots\",\"color\":\"brown\",\"material\":\"leather\",\"max_price\":180}"
+  },
+  {
+    "input": "Book a conference room for 10 people on Wednesday from 2pm to 4pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"conference room\",\"capacity\":10,\"date\":\"Wednesday\",\"start_time\":\"14:00\",\"end_time\":\"16:00\"}"
+  },
+  {
+    "input": "Find a laptop with 16GB RAM under $1000",
+    "output": "{\"intent\":\"product_search\",\"category\":\"laptop\",\"ram_gb\":16,\"max_price\":1000}"
+  },
+  {
+    "input": "Search stainless steel water bottle insulated 32oz under $25",
+    "output": "{\"intent\":\"product_search\",\"category\":\"water bottles\",\"material\":\"stainless steel insulated\",\"size\":\"32oz\",\"max_price\":25}"
+  },
+  {
+    "input": "Search for a kids' rain jacket under $35",
+    "output": "{\"intent\":\"product_search\",\"category\":\"rain jacket\",\"age_group\":\"kids\",\"max_price\":35}"
+  },
+  {
+    "input": "Make a haircut appointment tomorrow at 3pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"haircut\",\"date\":\"tomorrow\",\"time\":\"15:00\"}"
+  },
+  {
+    "input": "Reserve an acoustic rehearsal studio for 3 hours on Friday at 4pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"studio rental\",\"facility\":\"rehearsal studio\",\"duration_hours\":3,\"date\":\"Friday\",\"time\":\"16:00\"}"
+  },
+  {
+    "input": "Create account: Sophia, 23 years old, sophia.t@mail.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Sophia\",\"age\":23,\"email\":\"sophia.t@mail.org\"}"
+  },
+  {
+    "input": "Schedule a plumber visit tomorrow morning",
+    "output": "{\"intent\":\"booking\",\"type\":\"service\",\"specialty\":\"plumber\",\"date\":\"tomorrow\",\"time_of_day\":\"morning\"}"
+  },
+  {
+    "input": "Add user Elena Rostova, age 33, elena.r@novamail.ru",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Elena Rostova\",\"age\":33,\"email\":\"elena.r@novamail.ru\"}"
+  },
+  {
+    "input": "I want a yellow raincoat under $90",
+    "output": "{\"intent\":\"product_search\",\"category\":\"raincoat\",\"color\":\"yellow\",\"max_price\":90}"
+  },
+  {
+    "input": "Register student Maya Lin, 21, mayalin@yale.edu",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Maya Lin\",\"age\":21,\"email\":\"mayalin@yale.edu\"}"
+  },
+  {
+    "input": "Find children's bicycle under $150",
+    "output": "{\"intent\":\"product_search\",\"category\":\"bicycle\",\"age_group\":\"children\",\"max_price\":150}"
+  },
+  {
+    "input": "Add member Mateo, 36, mateo.l@chef.food",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Mateo\",\"age\":36,\"email\":\"mateo.l@chef.food\"}"
+  },
+  {
+    "input": "Search for stainless steel cookware set under $250",
+    "output": "{\"intent\":\"product_search\",\"category\":\"cookware set\",\"material\":\"stainless steel\",\"max_price\":250}"
+  },
+  {
+    "input": "Find waterproof hiking boots for men size 10 under $120",
+    "output": "{\"intent\":\"product_search\",\"category\":\"boots\",\"feature\":\"waterproof hiking\",\"gender\":\"men\",\"size\":10,\"max_price\":120}"
+  },
+  {
+    "input": "Book an oil change appointment for my Honda Civic on Tuesday at 10am",
+    "output": "{\"intent\":\"booking\",\"type\":\"service\",\"service_type\":\"oil change\",\"vehicle\":\"Honda Civic\",\"date\":\"Tuesday\",\"time\":\"10:00\"}"
+  },
+  {
+    "input": "Looking for adjustable dumbbell sets up to 50 lbs under $300",
+    "output": "{\"intent\":\"product_search\",\"category\":\"dumbbells\",\"type\":\"adjustable set\",\"weight\":\"50 lbs\",\"max_price\":300}"
+  },
+  {
+    "input": "Register Jack, 44, jack.o@engineering.tech",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Jack\",\"age\":44,\"email\":\"jack.o@engineering.tech\"}"
+  },
+  {
+    "input": "Look for a wall-mount bike rack under $40",
+    "output": "{\"intent\":\"product_search\",\"category\":\"bike rack\",\"mounting\":\"wall\",\"max_price\":40}"
+  },
+  {
+    "input": "Search for a cotton canvas tote bag under $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"tote bag\",\"material\":\"cotton canvas\",\"max_price\":20}"
+  },
+  {
+    "input": "Register Chloe, age 29, chloe.h@marketing.co",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Chloe\",\"age\":29,\"email\":\"chloe.h@marketing.co\"}"
+  },
+  {
+    "input": "Find a standing desk under $500",
+    "output": "{\"intent\":\"product_search\",\"category\":\"desk\",\"type\":\"standing\",\"max_price\":500}"
+  },
+  {
+    "input": "Reserve a double room at Grand Hotel for 3 nights checking in Nov 20",
+    "output": "{\"intent\":\"booking\",\"type\":\"hotel\",\"hotel_name\":\"Grand Hotel\",\"room_type\":\"double\",\"nights\":3,\"check_in\":\"Nov 20\"}"
+  },
+  {
+    "input": "Search for a set of watercolor paints under $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"watercolor paints\",\"max_price\":20}"
+  },
+  {
+    "input": "Search for a bamboo cutting board under $25",
+    "output": "{\"intent\":\"product_search\",\"category\":\"cutting board\",\"material\":\"bamboo\",\"max_price\":25}"
+  },
+  {
+    "input": "Create a user named Alice, age 30, email alice@example.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Alice\",\"age\":30,\"email\":\"alice@example.com\"}"
+  },
+  {
+    "input": "Reserve a table for 4 at Little Italy restaurant tomorrow at 8pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"venue\":\"Little Italy\",\"party_size\":4,\"date\":\"tomorrow\",\"time\":\"20:00\"}"
+  },
+  {
+    "input": "Reserve a campsite for 2 nights starting Thursday",
+    "output": "{\"intent\":\"booking\",\"type\":\"campsite\",\"nights\":2,\"check_in\":\"Thursday\"}"
+  },
+  {
+    "input": "Schedule a haircut and beard trim for Saturday at 1pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"barber\",\"services\":[\"haircut\",\"beard trim\"],\"date\":\"Saturday\",\"time\":\"13:00\"}"
+  },
+  {
+    "input": "Book a birthday party bus for 15 people on Saturday night",
+    "output": "{\"intent\":\"booking\",\"type\":\"party bus\",\"capacity\":15,\"date\":\"Saturday\",\"time_of_day\":\"night\"}"
+  },
+  {
+    "input": "Find a hammock with stand under $120",
+    "output": "{\"intent\":\"product_search\",\"category\":\"hammock\",\"includes\":\"stand\",\"max_price\":120}"
+  },
+  {
+    "input": "Book a table outside for 2 this Tuesday at 8pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":2,\"seating\":\"outdoor\",\"date\":\"this Tuesday\",\"time\":\"20:00\"}"
+  },
+  {
+    "input": "Search for smart electric toothbrushes under $60",
+    "output": "{\"intent\":\"product_search\",\"category\":\"toothbrushes\",\"type\":\"smart electric\",\"max_price\":60}"
+  },
+  {
+    "input": "New user: Scarlett, age 27, scarlett.r@fashion.io",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Scarlett\",\"age\":27,\"email\":\"scarlett.r@fashion.io\"}"
+  },
+  {
+    "input": "Add a new user: Maria, age 22, maria@outlook.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Maria\",\"age\":22,\"email\":\"maria@outlook.com\"}"
+  },
+  {
+    "input": "Add member Silas, 28, silas.m@minister.church",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Silas\",\"age\":28,\"email\":\"silas.m@minister.church\"}"
+  },
+  {
+    "input": "Find a smart thermostat under $150",
+    "output": "{\"intent\":\"product_search\",\"category\":\"thermostat\",\"type\":\"smart\",\"max_price\":150}"
+  },
+  {
+    "input": "Book a table for 2 outdoors at Le Bistro tonight at 8:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"venue\":\"Le Bistro\",\"seating\":\"outdoor\",\"party_size\":2,\"date\":\"tonight\",\"time\":\"20:30\"}"
+  },
+  {
+    "input": "Find memory foam contour pillows for neck pain under $40",
+    "output": "{\"intent\":\"product_search\",\"category\":\"pillows\",\"material\":\"memory foam\",\"feature\":\"neck contour\",\"max_price\":40}"
+  },
+  {
+    "input": "Search wireless headphones under $150",
+    "output": "{\"intent\":\"product_search\",\"category\":\"headphones\",\"connectivity\":\"wireless\",\"max_price\":150}"
+  },
+  {
+    "input": "Book a cooking class for 2 on Saturday at 11am",
+    "output": "{\"intent\":\"booking\",\"type\":\"class\",\"activity\":\"cooking\",\"party_size\":2,\"date\":\"Saturday\",\"time\":\"11:00\"}"
+  },
+  {
+    "input": "Reserve a paddock visit at the racing circuit next Saturday",
+    "output": "{\"intent\":\"booking\",\"type\":\"event\",\"event_type\":\"paddock visit\",\"date\":\"next Saturday\"}"
+  },
+  {
+    "input": "Reserve a conference room for 10 people this Friday from 2pm to 5pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"conference room\",\"party_size\":10,\"date\":\"this Friday\",\"start_time\":\"14:00\",\"end_time\":\"17:00\"}"
+  },
+  {
+    "input": "Make a reservation at the steakhouse for 4 on Sunday at 6:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"cuisine\":\"steakhouse\",\"party_size\":4,\"date\":\"Sunday\",\"time\":\"18:30\"}"
+  },
+  {
+    "input": "Sign up user Mason, he is 48, mason.w@executive.biz",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Mason\",\"age\":48,\"email\":\"mason.w@executive.biz\"}"
+  },
+  {
+    "input": "Schedule a virtual career counseling session on Tuesday at 4pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"counseling\",\"service\":\"career counseling\",\"mode\":\"virtual\",\"date\":\"Tuesday\",\"time\":\"16:00\"}"
+  },
+  {
+    "input": "Make a reservation for 3 at a rooftop bar Friday at 9pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":3,\"seating\":\"rooftop\",\"date\":\"Friday\",\"time\":\"21:00\"}"
+  },
+  {
+    "input": "Search for a waterproof hiking jacket under $120",
+    "output": "{\"intent\":\"product_search\",\"category\":\"jacket\",\"feature\":\"waterproof\",\"activity\":\"hiking\",\"max_price\":120}"
+  },
+  {
+    "input": "Search for a cast iron skillet under $50",
+    "output": "{\"intent\":\"product_search\",\"category\":\"skillet\",\"material\":\"cast iron\",\"max_price\":50}"
+  },
+  {
+    "input": "Find a portable blender under $35",
+    "output": "{\"intent\":\"product_search\",\"category\":\"blender\",\"type\":\"portable\",\"max_price\":35}"
+  },
+  {
+    "input": "Book a guided hike for 3 people next Sunday morning",
+    "output": "{\"intent\":\"booking\",\"type\":\"guided tour\",\"activity\":\"hiking\",\"party_size\":3,\"date\":\"next Sunday\",\"time_of_day\":\"morning\"}"
+  },
+  {
+    "input": "Schedule a 1-hour personal training session Monday at 7am",
+    "output": "{\"intent\":\"booking\",\"type\":\"personal training\",\"duration_hours\":1,\"date\":\"Monday\",\"time\":\"07:00\"}"
+  },
+  {
+    "input": "Make a reservation for a business lunch for 8 on Wednesday",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":8,\"occasion\":\"business lunch\",\"date\":\"Wednesday\"}"
+  },
+  {
+    "input": "Reserve a boat for half a day next Sunday",
+    "output": "{\"intent\":\"booking\",\"type\":\"equipment rental\",\"equipment\":\"boat\",\"duration\":\"half day\",\"date\":\"next Sunday\"}"
+  },
+  {
+    "input": "Find Bluetooth speaker under $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"speaker\",\"connectivity\":\"bluetooth\",\"max_price\":80}"
+  },
+  {
+    "input": "Find an electric toothbrush under $50",
+    "output": "{\"intent\":\"product_search\",\"category\":\"toothbrush\",\"type\":\"electric\",\"max_price\":50}"
+  },
+  {
+    "input": "Make a spa appointment for 2 people tomorrow at 1pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"spa\",\"party_size\":2,\"date\":\"tomorrow\",\"time\":\"13:00\"}"
+  },
+  {
+    "input": "Reserve 2 tickets for the symphony orchestra concert this Saturday at 7:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"tickets\",\"event\":\"symphony orchestra\",\"quantity\":2,\"date\":\"this Saturday\",\"time\":\"19:30\"}"
+  },
+  {
+    "input": "Find a memory foam mattress topper under $100",
+    "output": "{\"intent\":\"product_search\",\"category\":\"mattress topper\",\"material\":\"memory foam\",\"max_price\":100}"
+  },
+  {
+    "input": "Register Ruby, age 37, ruby.g@jeweler.gems",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ruby\",\"age\":37,\"email\":\"ruby.g@jeweler.gems\"}"
+  },
+  {
+    "input": "Create account Penelope, age 31, penelope.g@nurse.med",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Penelope\",\"age\":31,\"email\":\"penelope.g@nurse.med\"}"
+  },
+  {
+    "input": "Schedule a legal consultation on Monday at 10am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"legal\",\"date\":\"Monday\",\"time\":\"10:00\"}"
+  },
+  {
+    "input": "New user profile: Sebastian, 26, seb.r@junior.dev",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Sebastian\",\"age\":26,\"email\":\"seb.r@junior.dev\"}"
+  },
+  {
+    "input": "Schedule a physical therapy session on Thursday at 2pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"physical therapy\",\"date\":\"Thursday\",\"time\":\"14:00\"}"
+  },
+  {
+    "input": "Reserve a booth for 6 at the sports bar on Super Bowl Sunday at 5pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"seating\":\"booth\",\"party_size\":6,\"date\":\"Super Bowl Sunday\",\"time\":\"17:00\"}"
+  },
+  {
+    "input": "Find a ceramic plant pot under $15",
+    "output": "{\"intent\":\"product_search\",\"category\":\"plant pot\",\"material\":\"ceramic\",\"max_price\":15}"
+  },
+  {
+    "input": "Look for lightweight camping tents for 4 persons under $180",
+    "output": "{\"intent\":\"product_search\",\"category\":\"tents\",\"feature\":\"lightweight camping\",\"capacity\":\"4 person\",\"max_price\":180}"
+  },
+  {
+    "input": "Show me polarized sunglasses for cycling under $50",
+    "output": "{\"intent\":\"product_search\",\"category\":\"sunglasses\",\"lens\":\"polarized\",\"activity\":\"cycling\",\"max_price\":50}"
+  },
+  {
+    "input": "Find stainless steel water bottle 32oz under $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"water bottle\",\"material\":\"stainless steel\",\"size_oz\":32,\"max_price\":20}"
+  },
+  {
+    "input": "Sign up Owen, 57, owen.g@fisherman.sea",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Owen\",\"age\":57,\"email\":\"owen.g@fisherman.sea\"}"
+  },
+  {
+    "input": "Reserve a cabana at the beach club for 4 people on Sunday",
+    "output": "{\"intent\":\"booking\",\"type\":\"cabana rental\",\"venue\":\"beach club\",\"party_size\":4,\"date\":\"Sunday\"}"
+  },
+  {
+    "input": "Book a flight from NYC to LA next Monday",
+    "output": "{\"intent\":\"booking\",\"type\":\"flight\",\"origin\":\"NYC\",\"destination\":\"LA\",\"date\":\"next Monday\"}"
+  },
+  {
+    "input": "Search for a red umbrella, max $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"umbrella\",\"color\":\"red\",\"max_price\":20}"
+  },
+  {
+    "input": "Create record for David Kim, 24 years, dkim@seoul.kr",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"David Kim\",\"age\":24,\"email\":\"dkim@seoul.kr\"}"
+  },
+  {
+    "input": "Register a new user named Priya, she is 27, priya.k@email.in",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Priya\",\"age\":27,\"email\":\"priya.k@email.in\"}"
+  },
+  {
+    "input": "Reserve a study room at the library on Tuesday from 3pm to 6pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"study room\",\"date\":\"Tuesday\",\"start_time\":\"15:00\",\"end_time\":\"18:00\"}"
+  },
+  {
+    "input": "Add user Lucas, he's 38, lucas.v@business.io",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Lucas\",\"age\":38,\"email\":\"lucas.v@business.io\"}"
+  },
+  {
+    "input": "Please register Sandra Bullock, age 49, sandra@hollywood.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Sandra Bullock\",\"age\":49,\"email\":\"sandra@hollywood.com\"}"
+  },
+  {
+    "input": "Find linen short sleeve shirts in white under $45",
+    "output": "{\"intent\":\"product_search\",\"category\":\"shirts\",\"material\":\"linen\",\"sleeve\":\"short\",\"color\":\"white\",\"max_price\":45}"
+  },
+  {
+    "input": "Register Adrian, 26, adrian.k@startup.vc",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Adrian\",\"age\":26,\"email\":\"adrian.k@startup.vc\"}"
+  },
+  {
+    "input": "Schedule an eye checkup with Dr. Watson next Thursday at 11:30am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"doctor\":\"Dr. Watson\",\"specialty\":\"ophthalmologist\",\"date\":\"next Thursday\",\"time\":\"11:30\"}"
+  },
+  {
+    "input": "Show yoga mats non-slip extra thick under $35",
+    "output": "{\"intent\":\"product_search\",\"category\":\"yoga mats\",\"feature\":\"non-slip extra thick\",\"max_price\":35}"
+  },
+  {
+    "input": "Looking for 4K OLED gaming monitors under $800",
+    "output": "{\"intent\":\"product_search\",\"category\":\"monitors\",\"resolution\":\"4K\",\"display_type\":\"OLED\",\"max_price\":800}"
+  },
+  {
+    "input": "Add user profile for Zoe Bennett, 29, zoe.b@designhub.io",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Zoe Bennett\",\"age\":29,\"email\":\"zoe.b@designhub.io\"}"
+  },
+  {
+    "input": "Make a reservation for 2 at the sushi bar tonight at 9pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"cuisine\":\"sushi\",\"party_size\":2,\"date\":\"tonight\",\"time\":\"21:00\"}"
+  },
+  {
+    "input": "Search for linen bed sheets queen size under $60",
+    "output": "{\"intent\":\"product_search\",\"category\":\"bed sheets\",\"material\":\"linen\",\"size\":\"queen\",\"max_price\":60}"
+  },
+  {
+    "input": "Reserve a beach house for the weekend",
+    "output": "{\"intent\":\"booking\",\"type\":\"vacation rental\",\"property\":\"beach house\",\"duration\":\"weekend\"}"
+  },
+  {
+    "input": "Create account for Rhett, 44, rhett.c@cowboy.ranch",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Rhett\",\"age\":44,\"email\":\"rhett.c@cowboy.ranch\"}"
+  },
+  {
+    "input": "Reserve 4 movie tickets for Sunday evening",
+    "output": "{\"intent\":\"booking\",\"type\":\"movie\",\"tickets\":4,\"date\":\"Sunday\",\"time_of_day\":\"evening\"}"
+  },
+  {
+    "input": "Look for men's merino wool sweater under $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"sweater\",\"gender\":\"men\",\"material\":\"merino wool\",\"max_price\":80}"
+  },
+  {
+    "input": "Create profile Zoe, 40, zoe.m@entrepreneur.biz",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Zoe\",\"age\":40,\"email\":\"zoe.m@entrepreneur.biz\"}"
+  },
+  {
+    "input": "Book a golf tee time for 4 players next Sunday at 8am",
+    "output": "{\"intent\":\"booking\",\"type\":\"tee time\",\"players\":4,\"date\":\"next Sunday\",\"time\":\"08:00\"}"
+  },
+  {
+    "input": "Find a large dog bed under $60",
+    "output": "{\"intent\":\"product_search\",\"category\":\"dog bed\",\"size\":\"large\",\"max_price\":60}"
+  },
+  {
+    "input": "New user: William, 47, william.p@corp.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"William\",\"age\":47,\"email\":\"william.p@corp.com\"}"
+  },
+  {
+    "input": "Show organic green tea bags under $15",
+    "output": "{\"intent\":\"product_search\",\"category\":\"tea\",\"type\":\"organic green\",\"max_price\":15}"
+  },
+  {
+    "input": "Search portable bluetooth speakers with 20h battery below $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"speakers\",\"type\":\"portable bluetooth\",\"feature\":\"20h battery\",\"max_price\":80}"
+  }
+]

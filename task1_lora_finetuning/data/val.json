@@ -1,0 +1,102 @@
+[
+  {
+    "input": "Looking for wool winter trench coat in camel under $220",
+    "output": "{\"intent\":\"product_search\",\"category\":\"coats\",\"material\":\"wool\",\"type\":\"trench\",\"color\":\"camel\",\"max_price\":220}"
+  },
+  {
+    "input": "Register a new client named Liam Vance, age 34, liam.vance@techcorp.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Liam Vance\",\"age\":34,\"email\":\"liam.vance@techcorp.com\"}"
+  },
+  {
+    "input": "Looking for cast iron skillet 12 inch under $40",
+    "output": "{\"intent\":\"product_search\",\"category\":\"skillet\",\"material\":\"cast iron\",\"size\":\"12 inch\",\"max_price\":40}"
+  },
+  {
+    "input": "Create user profile Lily, age 20, lily.w@dance.studio",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Lily\",\"age\":20,\"email\":\"lily.w@dance.studio\"}"
+  },
+  {
+    "input": "Create profile for Nikola Tesla, 50 years, nikola@acpower.net",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Nikola Tesla\",\"age\":50,\"email\":\"nikola@acpower.net\"}"
+  },
+  {
+    "input": "Search for blue jeans, maximum price $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"jeans\",\"color\":\"blue\",\"max_price\":80}"
+  },
+  {
+    "input": "Register user Leo, 33, leo.b@teacher.edu",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Leo\",\"age\":33,\"email\":\"leo.b@teacher.edu\"}"
+  },
+  {
+    "input": "Find red shoes under $50",
+    "output": "{\"intent\":\"product_search\",\"category\":\"shoes\",\"color\":\"red\",\"max_price\":50}"
+  },
+  {
+    "input": "Search for ergonomic office chairs with lumbar support under $350",
+    "output": "{\"intent\":\"product_search\",\"category\":\"chairs\",\"type\":\"ergonomic office\",\"feature\":\"lumbar support\",\"max_price\":350}"
+  },
+  {
+    "input": "Find men's leather wallet under $40",
+    "output": "{\"intent\":\"product_search\",\"category\":\"wallet\",\"gender\":\"men\",\"material\":\"leather\",\"max_price\":40}"
+  },
+  {
+    "input": "Schedule a piano lesson for my son next Wednesday at 4:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"lesson\",\"activity\":\"piano\",\"date\":\"next Wednesday\",\"time\":\"16:30\"}"
+  },
+  {
+    "input": "Reserve an escape room for 5 people on Saturday at 4pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"escape room\",\"party_size\":5,\"date\":\"Saturday\",\"time\":\"16:00\"}"
+  },
+  {
+    "input": "Add a user named Grace, 41, grace.l@health.care",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Grace\",\"age\":41,\"email\":\"grace.l@health.care\"}"
+  },
+  {
+    "input": "Register Elena, age 29, elena.v@biologist.sci",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Elena\",\"age\":29,\"email\":\"elena.v@biologist.sci\"}"
+  },
+  {
+    "input": "Reserve a table for two, anniversary dinner, Friday at 8:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":2,\"occasion\":\"anniversary\",\"date\":\"Friday\",\"time\":\"20:30\"}"
+  },
+  {
+    "input": "Please onboard Lucas Silva, age 31, lucas.silva@brasil.br",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Lucas Silva\",\"age\":31,\"email\":\"lucas.silva@brasil.br\"}"
+  },
+  {
+    "input": "Schedule an eye exam on Saturday at 9am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"eye exam\",\"date\":\"Saturday\",\"time\":\"09:00\"}"
+  },
+  {
+    "input": "Add user Nolan, 35, nolan.f@plumber.fix",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Nolan\",\"age\":35,\"email\":\"nolan.f@plumber.fix\"}"
+  },
+  {
+    "input": "Find women running shoes in pink under $75",
+    "output": "{\"intent\":\"product_search\",\"category\":\"shoes\",\"type\":\"running\",\"gender\":\"women\",\"color\":\"pink\",\"max_price\":75}"
+  },
+  {
+    "input": "Book a food truck for my office party on December 20th",
+    "output": "{\"intent\":\"booking\",\"type\":\"catering\",\"caterer_type\":\"food truck\",\"occasion\":\"office party\",\"date\":\"December 20th\"}"
+  },
+  {
+    "input": "Register Isabella, age 36, isabella.g@home.net",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Isabella\",\"age\":36,\"email\":\"isabella.g@home.net\"}"
+  },
+  {
+    "input": "Show me cordless stick vacuums under $190",
+    "output": "{\"intent\":\"product_search\",\"category\":\"vacuums\",\"type\":\"cordless stick\",\"max_price\":190}"
+  },
+  {
+    "input": "New user: Hazel, age 23, hazel.p@intern.co",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Hazel\",\"age\":23,\"email\":\"hazel.p@intern.co\"}"
+  },
+  {
+    "input": "Find a mesh office chair under $250",
+    "output": "{\"intent\":\"product_search\",\"category\":\"office chair\",\"material\":\"mesh\",\"max_price\":250}"
+  },
+  {
+    "input": "Add member Grace Hopper, age 70, grace@cobol.gov",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Grace Hopper\",\"age\":70,\"email\":\"grace@cobol.gov\"}"
+  }
+]

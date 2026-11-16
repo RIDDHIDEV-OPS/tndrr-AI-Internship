@@ -1,0 +1,21 @@
+# Core ML / NLP
+sentence-transformers>=2.6.1
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# Document fetching
+requests>=2.31.0
+
+# Notebook
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# Visualisation (notebook)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Optional: Torch backend for sentence-transformers
+# torch is a dependency of sentence-transformers; specify CPU-only to keep it lighter:
+# torch>=2.1.0+cpu  # uncomment for explicit CPU-only torch

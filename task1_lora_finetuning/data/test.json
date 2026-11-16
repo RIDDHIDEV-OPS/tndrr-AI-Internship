@@ -1,0 +1,230 @@
+[
+  {
+    "input": "Reserve 2 tickets for the jazz concert on Friday",
+    "output": "{\"intent\":\"booking\",\"type\":\"concert\",\"genre\":\"jazz\",\"tickets\":2,\"date\":\"Friday\"}"
+  },
+  {
+    "input": "Search for an HDMI cable 6ft under $12",
+    "output": "{\"intent\":\"product_search\",\"category\":\"HDMI cable\",\"length_ft\":6,\"max_price\":12}"
+  },
+  {
+    "input": "Find black leather jackets under $150",
+    "output": "{\"intent\":\"product_search\",\"category\":\"jackets\",\"color\":\"black\",\"material\":\"leather\",\"max_price\":150}"
+  },
+  {
+    "input": "Schedule a car service appointment for Monday morning",
+    "output": "{\"intent\":\"booking\",\"type\":\"service\",\"specialty\":\"car service\",\"date\":\"Monday\",\"time_of_day\":\"morning\"}"
+  },
+  {
+    "input": "Register member Fatima Al-Mansoor, 38, fatima@gulfstream.ae",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Fatima Al-Mansoor\",\"age\":38,\"email\":\"fatima@gulfstream.ae\"}"
+  },
+  {
+    "input": "Find non-stick cookware set under $80",
+    "output": "{\"intent\":\"product_search\",\"category\":\"cookware set\",\"feature\":\"non-stick\",\"max_price\":80}"
+  },
+  {
+    "input": "Add member Henry, age 55, henry.n@retired.info",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Henry\",\"age\":55,\"email\":\"henry.n@retired.info\"}"
+  },
+  {
+    "input": "Find white running shoes cheaper than $100",
+    "output": "{\"intent\":\"product_search\",\"category\":\"shoes\",\"color\":\"white\",\"max_price\":100}"
+  },
+  {
+    "input": "Create a profile: Luna, age 25, luna.s@artist.me",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Luna\",\"age\":25,\"email\":\"luna.s@artist.me\"}"
+  },
+  {
+    "input": "Find a solar-powered garden light under $20",
+    "output": "{\"intent\":\"product_search\",\"category\":\"garden light\",\"power\":\"solar\",\"max_price\":20}"
+  },
+  {
+    "input": "Look for USB-C hub under $35",
+    "output": "{\"intent\":\"product_search\",\"category\":\"USB hub\",\"connector\":\"USB-C\",\"max_price\":35}"
+  },
+  {
+    "input": "Reserve a room for 3 nights starting Friday",
+    "output": "{\"intent\":\"booking\",\"type\":\"hotel\",\"nights\":3,\"check_in\":\"Friday\"}"
+  },
+  {
+    "input": "New account: Olivia, 33, olivia.r@personal.com",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Olivia\",\"age\":33,\"email\":\"olivia.r@personal.com\"}"
+  },
+  {
+    "input": "Book a dentist appointment for teeth cleaning on Monday at 9am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"dentist\",\"service\":\"cleaning\",\"date\":\"Monday\",\"time\":\"09:00\"}"
+  },
+  {
+    "input": "New profile: Aurora, age 31, aurora.d@astronomer.star",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Aurora\",\"age\":31,\"email\":\"aurora.d@astronomer.star\"}"
+  },
+  {
+    "input": "Search for a reusable glass straw set under $10",
+    "output": "{\"intent\":\"product_search\",\"category\":\"straw\",\"material\":\"glass\",\"feature\":\"reusable\",\"max_price\":10}"
+  },
+  {
+    "input": "Register George Orwell, 46, george@1984.co.uk",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"George Orwell\",\"age\":46,\"email\":\"george@1984.co.uk\"}"
+  },
+  {
+    "input": "Book a culinary masterclass for 1 next Wednesday at 6pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"class\",\"activity\":\"culinary masterclass\",\"party_size\":1,\"date\":\"next Wednesday\",\"time\":\"18:00\"}"
+  },
+  {
+    "input": "Sign up user Isaac Newton, age 35, isaac@principia.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Isaac Newton\",\"age\":35,\"email\":\"isaac@principia.org\"}"
+  },
+  {
+    "input": "New profile for Daniel, 37 years old, daniel.m@finance.biz",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Daniel\",\"age\":37,\"email\":\"daniel.m@finance.biz\"}"
+  },
+  {
+    "input": "I want a green backpack, budget is $45",
+    "output": "{\"intent\":\"product_search\",\"category\":\"backpack\",\"color\":\"green\",\"max_price\":45}"
+  },
+  {
+    "input": "Create user Charlotte, age 20, charlotte.w@college.edu",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Charlotte\",\"age\":20,\"email\":\"charlotte.w@college.edu\"}"
+  },
+  {
+    "input": "Create account Benjamin, age 18, benny.f@gamer.gg",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Benjamin\",\"age\":18,\"email\":\"benny.f@gamer.gg\"}"
+  },
+  {
+    "input": "Sign up Leo Tolstoy, age 82, leo@warandpeace.ru",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Leo Tolstoy\",\"age\":82,\"email\":\"leo@warandpeace.ru\"}"
+  },
+  {
+    "input": "Reserve a yoga class tomorrow morning at 7am",
+    "output": "{\"intent\":\"booking\",\"type\":\"class\",\"activity\":\"yoga\",\"date\":\"tomorrow\",\"time\":\"07:00\"}"
+  },
+  {
+    "input": "Book a nutritionist appointment next Friday at 11am",
+    "output": "{\"intent\":\"booking\",\"type\":\"appointment\",\"specialty\":\"nutritionist\",\"date\":\"next Friday\",\"time\":\"11:00\"}"
+  },
+  {
+    "input": "New account: Ellie, age 32, ellie.r@yoga.fit",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ellie\",\"age\":32,\"email\":\"ellie.r@yoga.fit\"}"
+  },
+  {
+    "input": "Create user Victoria, age 46, victoria.m@doctor.health",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Victoria\",\"age\":46,\"email\":\"victoria.m@doctor.health\"}"
+  },
+  {
+    "input": "Book a kayak tour for 2 at sunset on Saturday at 5:30pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"tour\",\"activity\":\"kayak tour\",\"party_size\":2,\"date\":\"Saturday\",\"time\":\"17:30\"}"
+  },
+  {
+    "input": "New customer: Ada Lovelace, age 36, ada@analyticalengine.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ada Lovelace\",\"age\":36,\"email\":\"ada@analyticalengine.org\"}"
+  },
+  {
+    "input": "Look for a navy blue suit under $400",
+    "output": "{\"intent\":\"product_search\",\"category\":\"suit\",\"color\":\"navy blue\",\"max_price\":400}"
+  },
+  {
+    "input": "Find electric coffee grinders with burr blades under $70",
+    "output": "{\"intent\":\"product_search\",\"category\":\"coffee grinders\",\"type\":\"electric burr\",\"max_price\":70}"
+  },
+  {
+    "input": "Sign up Harper, she's 24, harper.w@journalist.press",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Harper\",\"age\":24,\"email\":\"harper.w@journalist.press\"}"
+  },
+  {
+    "input": "Reserve a party room for 20 people on December 25th",
+    "output": "{\"intent\":\"booking\",\"type\":\"party room\",\"capacity\":20,\"date\":\"December 25th\"}"
+  },
+  {
+    "input": "Book a dinner table for 6 at 6:30pm on Friday",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":6,\"time\":\"18:30\",\"date\":\"Friday\"}"
+  },
+  {
+    "input": "Make an account for Bob, he is 45, email is bob@company.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Bob\",\"age\":45,\"email\":\"bob@company.org\"}"
+  },
+  {
+    "input": "Search for a rose gold phone case for iPhone under $15",
+    "output": "{\"intent\":\"product_search\",\"category\":\"phone case\",\"color\":\"rose gold\",\"compatible_with\":\"iPhone\",\"max_price\":15}"
+  },
+  {
+    "input": "Book a table for 7 people at 6pm on New Year's Eve",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":7,\"time\":\"18:00\",\"date\":\"New Year's Eve\"}"
+  },
+  {
+    "input": "Look for gaming mouse under $70",
+    "output": "{\"intent\":\"product_search\",\"category\":\"mouse\",\"type\":\"gaming\",\"max_price\":70}"
+  },
+  {
+    "input": "Reserve a double room at a 4-star hotel for 5 nights",
+    "output": "{\"intent\":\"booking\",\"type\":\"hotel\",\"room_type\":\"double\",\"star_rating\":4,\"nights\":5}"
+  },
+  {
+    "input": "Find yoga mat under $30",
+    "output": "{\"intent\":\"product_search\",\"category\":\"yoga mat\",\"max_price\":30}"
+  },
+  {
+    "input": "Register Mia, age 21, mia.chen@uni.edu",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Mia\",\"age\":21,\"email\":\"mia.chen@uni.edu\"}"
+  },
+  {
+    "input": "Book a deep tissue massage for 60 minutes on Sunday at 3pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"spa\",\"treatment\":\"deep tissue massage\",\"duration_minutes\":60,\"date\":\"Sunday\",\"time\":\"15:00\"}"
+  },
+  {
+    "input": "Find a compact mirrorless camera under $800",
+    "output": "{\"intent\":\"product_search\",\"category\":\"camera\",\"type\":\"mirrorless\",\"max_price\":800}"
+  },
+  {
+    "input": "Find a purple hoodie cheaper than $55",
+    "output": "{\"intent\":\"product_search\",\"category\":\"hoodie\",\"color\":\"purple\",\"max_price\":55}"
+  },
+  {
+    "input": "Sign up Nora, she is 38, nora.b@architect.build",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Nora\",\"age\":38,\"email\":\"nora.b@architect.build\"}"
+  },
+  {
+    "input": "Create a new user: Ava, age 26, ava.m@cloud.dev",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ava\",\"age\":26,\"email\":\"ava.m@cloud.dev\"}"
+  },
+  {
+    "input": "Set up account for Oliver, 29 years, oliver@startup.ai",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Oliver\",\"age\":29,\"email\":\"oliver@startup.ai\"}"
+  },
+  {
+    "input": "Book a birthday dinner table for 10 this Saturday at 7pm",
+    "output": "{\"intent\":\"booking\",\"type\":\"restaurant\",\"party_size\":10,\"occasion\":\"birthday\",\"date\":\"this Saturday\",\"time\":\"19:00\"}"
+  },
+  {
+    "input": "Add user Wyatt, age 53, wyatt.h@retired.golf",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Wyatt\",\"age\":53,\"email\":\"wyatt.h@retired.golf\"}"
+  },
+  {
+    "input": "Register Ezra, 45, ezra.b@rabbi.org",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Ezra\",\"age\":45,\"email\":\"ezra.b@rabbi.org\"}"
+  },
+  {
+    "input": "Sign up Priya Sharma, age 26, priya.sharma@startup.in",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Priya Sharma\",\"age\":26,\"email\":\"priya.sharma@startup.in\"}"
+  },
+  {
+    "input": "Search for silver watch under $250",
+    "output": "{\"intent\":\"product_search\",\"category\":\"watch\",\"color\":\"silver\",\"max_price\":250}"
+  },
+  {
+    "input": "Find a 4K monitor under $400",
+    "output": "{\"intent\":\"product_search\",\"category\":\"monitor\",\"resolution\":\"4K\",\"max_price\":400}"
+  },
+  {
+    "input": "Look for a mini projector under $100",
+    "output": "{\"intent\":\"product_search\",\"category\":\"projector\",\"type\":\"mini\",\"max_price\":100}"
+  },
+  {
+    "input": "Please create a profile for James, 50 years old, james@legacy.co",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"James\",\"age\":50,\"email\":\"james@legacy.co\"}"
+  },
+  {
+    "input": "Create profile for Bella, age 42, bella.m@salon.style",
+    "output": "{\"intent\":\"user_profile\",\"name\":\"Bella\",\"age\":42,\"email\":\"bella.m@salon.style\"}"
+  }
+]
