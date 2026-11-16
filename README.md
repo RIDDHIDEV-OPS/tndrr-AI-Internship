@@ -5,7 +5,8 @@
 **GitHub Repository:** [https://github.com/RIDDHIDEV-OPS/tndrr-AI-Internship](https://github.com/RIDDHIDEV-OPS/tndrr-AI-Internship)  
 **Submission Deadline:** Thursday, 19 November 2026 at 11:59 PM IST  
 **Submission Form:** [https://forms.gle/zwiDcjVkG6M4u8jEH7](https://forms.gle/zwiDcjVkG6M4u8jEH7)  
-**Report Document:** [`tndrr_AI_Internship_Report_Riddhi_Das.pdf`](./tndrr_AI_Internship_Report_Riddhi_Das.pdf) (4 pages, publication ready)
+**Report Document (Local):** [`tndrr_AI_Internship_Report_Riddhi_Das.pdf`](./tndrr_AI_Internship_Report_Riddhi_Das.pdf) (4 pages, publication ready)  
+**Report Document (Google Drive):** [https://drive.google.com/file/d/162WGgoVXNbkT8N8WzwxD0g38JIP8G8IK/view?usp=sharing](https://drive.google.com/file/d/162WGgoVXNbkT8N8WzwxD0g38JIP8G8IK/view?usp=sharing)
 
 ---
 
@@ -104,7 +105,8 @@ tndrr-ai-internship-assignment/
 ## 📄 Final PDF Report
 
 The comprehensive 4-page submission report has been compiled and is ready for submission:
-👉 **[`tndrr_AI_Internship_Report_Riddhi_Das.pdf`](./tndrr_AI_Internship_Report_Riddhi_Das.pdf)**
+- **Direct GitHub File:** [`tndrr_AI_Internship_Report_Riddhi_Das.pdf`](./tndrr_AI_Internship_Report_Riddhi_Das.pdf)
+- **Google Drive Share Link (Viewable by anyone with link):** [https://drive.google.com/file/d/162WGgoVXNbkT8N8WzwxD0g38JIP8G8IK/view?usp=sharing](https://drive.google.com/file/d/162WGgoVXNbkT8N8WzwxD0g38JIP8G8IK/view?usp=sharing)
 
 To recompile the PDF at any time:
 ```bash
